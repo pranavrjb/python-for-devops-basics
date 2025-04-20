@@ -1,0 +1,21 @@
+# Write a program to input eight numbers from teh user and display all the unique numbers(once).'
+
+s=set()
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+a = int(input("Enter number : "))
+s.add(a)
+
+print(s)
